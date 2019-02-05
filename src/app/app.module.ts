@@ -12,8 +12,10 @@ import { ContactComponent } from './component/contact/contact.component';
 import { ShowComponent } from './component/show/show.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatDialogModule, MatIcon, MatToolbar } from '@angular/material';
+import { MatButtonModule, MatDialogModule} from '@angular/material';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { AboutComponent } from './component/about/about.component';
 import { PopupComponent } from './component/popup/popup.component';
 import { TypeFormComponent } from './component/type-form/type-form.component';
@@ -30,8 +32,6 @@ import { TypeFormComponent } from './component/type-form/type-form.component';
     ShowComponent,
     AboutComponent,
     PopupComponent,
-    MatIcon,
-    MatToolbar,
     TypeFormComponent
   ],
   imports: [
@@ -40,7 +40,9 @@ import { TypeFormComponent } from './component/type-form/type-form.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatDialogModule,
-    MatChipsModule
+    MatChipsModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   /*exports:[
     MatChipList
