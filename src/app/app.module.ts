@@ -12,8 +12,8 @@ import { ContactComponent } from './component/contact/contact.component';
 import { ShowComponent } from './component/show/show.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatDialogModule, MatIcon, MatToolbar, MatChip, MatChipList } from '@angular/material';
-
+import { MatButtonModule, MatDialogModule, MatIcon, MatToolbar } from '@angular/material';
+import { MatChipsModule } from '@angular/material/chips';
 import { AboutComponent } from './component/about/about.component';
 import { PopupComponent } from './component/popup/popup.component';
 import { TypeFormComponent } from './component/type-form/type-form.component';
@@ -32,16 +32,15 @@ import { TypeFormComponent } from './component/type-form/type-form.component';
     PopupComponent,
     MatIcon,
     MatToolbar,
-    TypeFormComponent,
-    MatChipList,
-    MatChip
+    TypeFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    MatChipsModule
   ],
   /*exports:[
     MatChipList
