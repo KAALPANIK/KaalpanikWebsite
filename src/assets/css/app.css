@@ -7,14 +7,28 @@ width: 100%;
 	position: relative;
 	top: 10px;
 }
-
 hr{
-	width: 100px;
+	width: 120px;
 	height: 2px;
 	background-color: black;
 }
+
+.collap-hr{
+	width: 550px;
+	height: 2px;
+	background-color: #0000009c;
+}
+.collap-hr2{
+	width: 400px;
+	height: 2px;
+	background-color: #0000009c;
+}
+.watch-video{font-size: 17px;}
 ul>.list{
 	list-style:disc !important;
+}
+.btn-floating.btn-small {
+    top: -6px;
 }
 
 @media screen and (max-width: 768px){
