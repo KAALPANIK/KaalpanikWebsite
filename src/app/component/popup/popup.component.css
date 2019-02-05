@@ -1,0 +1,14 @@
+
+.span{font-size: 12px;}
+
+  .responsive-video{
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+      object-fit: contain;
+      z-index: 1004 !important;
+  }
+  iframe{
+    max-width: 100%;
+    height: auto;
+  }

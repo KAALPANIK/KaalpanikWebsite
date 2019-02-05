@@ -1,0 +1,5 @@
+.overview-heading, i, p{
+    display: inline;
+}
+.overview-heading{text-decoration: underline;}
+.Overview-details{margin-top: 25px;}
