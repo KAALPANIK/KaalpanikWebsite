@@ -1,5 +1,6 @@
  $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav(
+    );
 
     $('#pulse-effect').addClass('animated pulse');
   
@@ -12,7 +13,7 @@
 
         // move next carousel
    $('.moveNextCarousel').click(function(e){
-    e.preventDefault();
+    e.preventDefault(); 
     e.stopPropagation();
     $('.carousel').carousel('next');
  });

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig} from '@angular/material';
+import { TypeFormComponent } from '../type-form/type-form.component';
 
 @Component({
   selector: 'app-navigation',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
   }
 
+  openForm(){
+    /* const dialogConfig = new MatDialogConfig();
+     dialogConfig.disableClose = true;
+     dialogConfig.autoFocus = true;*/
+     this.dialog.open(TypeFormComponent);    
+   }
 }

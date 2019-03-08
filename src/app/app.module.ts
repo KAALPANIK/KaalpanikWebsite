@@ -19,6 +19,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AboutComponent } from './component/about/about.component';
 import { PopupComponent } from './component/popup/popup.component';
 import { TypeFormComponent } from './component/type-form/type-form.component';
+import { QueryComponent } from './component/query/query.component';
+import { IndustriesComponent } from './component/industries/industries.component';
+import { WorkWithComponent } from './component/work-with/work-with.component';
+import { WeDevelopComponent } from './component/we-develop/we-develop.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { TypeFormComponent } from './component/type-form/type-form.component';
     ShowComponent,
     AboutComponent,
     PopupComponent,
-    TypeFormComponent
+    TypeFormComponent,
+    QueryComponent,
+    IndustriesComponent,
+    WorkWithComponent,
+    WeDevelopComponent
   ],
   imports: [
     BrowserModule,

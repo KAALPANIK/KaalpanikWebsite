@@ -12,7 +12,6 @@ import { WebDevelopmentComponent } from './component/web-development/web-develop
 import {ShowComponent} from './component/show/show.component';
 import { AboutComponent } from './component/about/about.component';
 
-
 const routes: Routes = [
   {path: 'MobileApp', component: MobileApplicationComponent},
   {path: 'About', component: AboutComponent},

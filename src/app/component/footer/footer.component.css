@@ -1,0 +1,19 @@
+.modal-fixed-footer {border-radius: 1%;}
+.modal-fixed-footer .modal-content{text-align: left; font-size:15px; all:none;}
+.modal-fixed-footer .modal-content ul{
+    all:none;
+    list-style-type: disc !important;
+}
+.modal .modal-footer {text-align: center !important;}
+.modal-fixed-footer .modal-content ul li{
+    all:none;
+    list-style-type: disc !important;
+    text-align: left !important;
+    font-size: 15px;
+    display: list-item;
+    padding: 2px;
+    margin-left:5px;
+}
+.modal-fixed-footer .modal-content a{
+    color: #4d87c1f0 !important;
+}

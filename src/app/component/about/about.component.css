@@ -1,5 +1,11 @@
+@media screen and (max-width: 320px){
+	.break a, p{
+        display: inline-block !important;
+    }
+}
+@media screen and (min-width: 321px){
 .overview-heading, i, p{
     display: inline;
-}
+}}
 .overview-heading{text-decoration: underline;}
 .Overview-details{margin-top: 25px;}

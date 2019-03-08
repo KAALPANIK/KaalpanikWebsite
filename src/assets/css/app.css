@@ -12,7 +12,7 @@ hr{
 	height: 2px;
 	background-color: black;
 }
-
+@media screen and (min-width: 768px){
 .collap-hr{
 	width: 550px;
 	height: 2px;
@@ -22,6 +22,12 @@ hr{
 	width: 400px;
 	height: 2px;
 	background-color: #0000009c;
+}
+}
+@media screen and (max-width: 600px){
+	.modal .modal-content {
+		padding: 0px !important; 
+   }
 }
 .watch-video{font-size: 17px;}
 ul>.list{
@@ -51,7 +57,7 @@ ul>.list{
 }
 
 .footer{
-	background-color:black;
+	background-color:#7d98b9;
 	color: white;
 	padding: 15px;
 }
